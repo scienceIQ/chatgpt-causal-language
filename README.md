@@ -2,6 +2,9 @@
 This repository contains the code implemented for **Can ChatGPT Understand Causal Language in Science Claims?** [[pdf](https://aclanthology.org/2023.wassa-1.33)] presented in 2023 WASSA (Proceedings of the 13th Workshop on Computational Approaches to Subjectivity, Sentiment, & Social Media Analysis).
 
 ## How to Use
+### Requirements
+openai < 1.0.0
+
 ### Prompt text files
 To run the model with specific prompts, you should save the prompt in a text file. The file name should start with `prompt_{}.txt` where the specific name of the prompt be added in place of the brackets. (e.g. `prompt_BASE.txt`)
 
